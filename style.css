@@ -54,11 +54,12 @@ nav a {
 }
 
 nav a:hover {
-    background-color: aliceblue;
     border-radius: 10px;
     padding: 10px;
-    color: black;
     transition-duration: 0.3s;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    opacity: 0.5;
 }
 
 .titulo {
@@ -84,7 +85,7 @@ nav a:hover {
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
-    border: none;
+    border: 1px solid transparent;
     width: 180px;
     height: 50px;
     font-size: 18px;
@@ -95,8 +96,8 @@ nav a:hover {
 }
 
 .botao:hover {
-    background-color: black;
-    color: white;
+    background-color: transparent;
     transition-duration: 0.3s;
     cursor: pointer;
+    border: 1px solid white;
 }
