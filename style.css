@@ -12,6 +12,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    user-select: none;
 }
 
 header {
@@ -80,6 +81,7 @@ nav a:hover {
     color: white;
     font-size: 40px;
     font-family: "Rochester", cursive;
+    line-height: 70px;
 }
 
 .titulo h1 {
